@@ -251,7 +251,7 @@ var chart = function() {
       var maxCount = d3.max(words, function(w) { return w.count; });
       var color = d3.scaleLog()
         .domain([1,maxCount / 2])
-        .range(["#333", "#fff"]);
+        .range(["#317425", "#d3d3d3"]);
 
       word = g.selectAll(".word")
         .data(words.filter(function(w) { return stop_words.indexOf(w.key) == -1; })).enter()

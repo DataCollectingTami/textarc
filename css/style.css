@@ -5,10 +5,13 @@ body, input, textarea {
   color: darkgreen;
 }
 
-#main {
-  color: saddlebrown;
-}
+/*#main {*/
+/*  color: black;*/
+/*}*/
 
+.word{
+  color: brown;
+}
 .container {
   /*width: 940px;*/
   /*margin: auto;*/
@@ -30,13 +33,20 @@ body, input, textarea {
   left: 30px;
 }
 
-#title, #about {
+
+#title {
 
   font-family: Georgia, "Times New Roman", Serif;
   text-align:center;
   color: darkslateblue;
   opacity: 0.4;
   font-style: italic;
+}
+#about{
+  text-align:center;
+  opacity: 0.4;
+  font-style: italic;
+color: deeppink;
 }
 
 .sentence {
@@ -45,7 +55,7 @@ body, input, textarea {
 }
 
 .highlight {
-  fill: darkgreen;
+  fill: darkslateblue;
   opacity: 1.0;
 }
 
@@ -58,8 +68,10 @@ body, input, textarea {
 
 #vis {
   /*font-size: 2px;*/
+  color: deeppink;
 }
 
 #vis .word {
   /*opacity: 0.4;*/
+  color: brown;
 }
