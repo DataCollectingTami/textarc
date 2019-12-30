@@ -13,6 +13,7 @@ var visWidth = 1100;
 var visHeight = 700;
 
 // pulls out all the sentences
+// TODO: REMORE QUOTATION MARKS
 // TODO: we don't really need the lengths at all - remove
 // TODO: whitespace seems to be removed?
 //  - more likely - the interesting spacing is removed in the gutenberg version
@@ -328,5 +329,5 @@ function display(error, text) {
 }
 
 d3.queue()
-  .defer(d3.text, "data/alice.txt")
+  .defer(d3.text, "data/great_gatsby.txt")
   .await(display);
